@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    height: 250px;
+    background-color: #001219;
+    color: #fef9ef;
+    text-transform: uppercase;
+}
