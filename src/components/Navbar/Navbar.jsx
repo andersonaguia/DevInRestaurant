@@ -13,7 +13,7 @@ export const Navbar = ()=>{
             </div>
             <div className="logo">
                 <img src={pizza} alt="logo restaurante"/>
-                <h1>Tech Pizza</h1>
+                <h1>Tech Restaurante</h1>
                 <p>since 1988</p>
             </div>            
             <a href="">Menu</a>

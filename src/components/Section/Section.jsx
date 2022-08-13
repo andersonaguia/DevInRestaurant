@@ -1,15 +1,17 @@
 
 import PropTypes from 'prop-types'
+import { Card } from '../Card/Card'
 
-export const Section = ({secao}) => {
+export const Section = ({nome, produtos}) => {
     return(
-        <h2>{secao.nome}</h2>
+        <div>
+            <h2>{nome}</h2>
+            {produtos.map((el) =>  <Card key={el.id} produto={el}/>)} 
+        </div>                           
     )
 }
 
-Section.propTypes = {
-    secao: PropTypes.shape({
-        nome: PropTypes.string.isRequired,
-        produto: PropTypes.object.isRequired,
-    })
+Section.propTypes = {    
+    nome: PropTypes.string.isRequired,
+    produtos: PropTypes.array.isRequired,    
 }

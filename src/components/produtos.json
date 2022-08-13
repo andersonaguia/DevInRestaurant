@@ -1,0 +1,43 @@
+{
+    "entradas": [
+        {
+            "id": 1,
+            "nome": "salada",
+            "descricao": "Salada com folhas",
+            "subCategoria": "saladas"
+        },
+        {
+            "id": 2,
+            "nome": "salada 2",
+            "descricao": "Salada com folhas 2",
+            "subCategoria": "EntradasFrias"
+        },
+        {
+            "id": 3,
+            "nome": "salada",
+            "descricao": "Salada com folhas",
+            "subCategoria": "saladas"
+        },
+        {
+            "id": 4,
+            "nome": "salada 2",
+            "descricao": "Salada com folhas 2",
+            "subCategoria": "EntradasFrias"
+        }
+    ],
+
+    "pratosPrincipais": [
+        {
+            "id": 1,
+            "nome": "Prato 1",
+            "descricao": "Frango grelhado",
+            "subCategoria": "Carnes"
+        },
+        {
+            "id": 2,
+            "nome": "Prato 2",
+            "descricao": "Filé com fritas",
+            "subCategoria": "Petiscos"
+        }
+    ]
+}

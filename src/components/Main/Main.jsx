@@ -1,28 +1,15 @@
 import "./main.css";
-import { Card } from "../Card/Card";
+import { Section } from "../Section/Section";
 import { uuidv4 } from "../../utils/NewID";
+import produtos from '../../components/produtos.json'
 
-const produtos = [
-  {
-    id: uuidv4(),
-    nome: "Muzzarella",
-    descricao: "Pizza de Mussarella",
-    valor: 12,
-    tempoPreparo: "12 minutos",
-  },
-];
+const secoes = ["Entradas", "Pratos Principais", "Bebidas"];
 
+// console.log(produtos);
 export const Main = () => {
   return (
     <main className="main">
-      <Card key={produtos[0].id}
-        produto={{
-          nome: produtos[0].nome,
-          descricao: produtos[0].descricao,
-          valor: produtos[0].valor,
-          tempoPreparo: produtos[0].tempoPreparo,
-        }}
-      />
+      <Section nome={"Entradas"} produtos={produtos.entradas}/>
     </main>
   );
 };
