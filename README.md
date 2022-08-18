@@ -1,15 +1,25 @@
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/andersonaguia/README?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/andersonaguia
+/
+DevInRestaurant?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/andersonaguia/README">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/andersonaguia
+/
+DevInRestaurant">
   
   <a href="https://github.com/andersonaguia/README/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tgmarinho/README-ecoleta">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/andersonaguia
+/
+DevInRestaurant">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/andersonaguia/README/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/andersonaguia/README?style=social">
+   <a href="https://github.com/andersonaguia
+/
+DevInRestaurant/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/andersonaguia
+/
+DevInRestaurant?style=social">
   </a>
 
   <a href="https://www.instagram.com/anders.aguiar/">
