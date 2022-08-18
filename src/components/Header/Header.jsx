@@ -1,10 +1,10 @@
-import './header.css'
+import styles from './header.module.css'
 
 import { Navbar } from "../Navbar/Navbar"
 
 export const Header = ()=>{
     return(     
-        <header className='header'>
+        <header className={styles.header}>
             <Navbar />       
         </header>
     )       

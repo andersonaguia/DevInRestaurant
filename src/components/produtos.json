@@ -2,42 +2,510 @@
     "entradas": [
         {
             "id": 1,
-            "nome": "salada",
-            "descricao": "Salada com folhas",
-            "subCategoria": "saladas"
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbSa8s9nSkrc_E3uj9lGpMTP9ZoywtalbLWg&usqp=CAU",
+            "nome": "Tábua de queijos",
+            "descricao": "Queijos fatiados, requeijões, queijinhos frescos, condimentados ou picantes.",
+            "valor": 37.90,
+            "tempoDePreparo": 20,
+            "categoria": "Queijos"
         },
         {
             "id": 2,
-            "nome": "salada 2",
-            "descricao": "Salada com folhas 2",
-            "subCategoria": "EntradasFrias"
+            "imagem": "https://blog.atau.com.br/wp-content/uploads/2019/03/T%C3%A1bua-de-enchidos.jpg",
+            "nome": "Tábua de enchidos",
+            "descricao": "Chouriços, morcelas, paios, salames e salpicões.",
+            "valor": 25.28,
+            "tempoDePreparo": 25,
+            "categoria": "Carnes"
         },
         {
             "id": 3,
-            "nome": "salada",
-            "descricao": "Salada com folhas",
-            "subCategoria": "saladas"
+            "imagem": "https://blog.atau.com.br/wp-content/uploads/2019/03/Canapes-1.jpg",
+            "nome": "Canapés",
+            "descricao": "Quadradinhos de pão torrado e creme com queijos especiais.",
+            "valor": 22.39,
+            "tempoDePreparo": 18,
+            "categoria": "Queijos"
         },
         {
             "id": 4,
-            "nome": "salada 2",
-            "descricao": "Salada com folhas 2",
-            "subCategoria": "EntradasFrias"
+            "imagem": "https://blog.atau.com.br/wp-content/uploads/2019/03/opcoes-de-entrada-restaurante.jpg",
+            "nome": "Tábua Premium",
+            "descricao": "Cortes especiais de salames, presuntos e torradas servidos com creme de queijo.",
+            "valor": 28.99,
+            "tempoDePreparo": 23,
+            "categoria": "Carnes"
+        },
+        {
+            "id": 5,
+            "imagem": "https://blog.atau.com.br/wp-content/uploads/2019/03/Tremo%C3%A7os-snacks-salgados-e-misturas-ex%C3%B3ticas.jpg",
+            "nome": "Snacks salgados.",
+            "descricao": "Bolinhas estaladiças de queijo, milho crocante, tirinhas fritas de milho.",
+            "valor": 25.00,
+            "tempoDePreparo": 15,
+            "categoria": "Queijos"
+        },
+        {
+            "id": 6,
+            "imagem": "https://s2.glbimg.com/mEMbqX3EBPFF4nDfyK8TQKN_5IQ=/620x520/smart/e.glbimg.com/og/ed/f/original/2020/04/17/receita-de-dadinho-de-tapioca-recheado_2.jpeg",
+            "nome": "Dadinho de tapioca",
+            "descricao": "Bolinho de tapioca com recheio de carne de sol na nata.",
+            "valor": 28.00,
+            "tempoDePreparo": 15,
+            "categoria": "Carnes"
+        }
+    ],
+
+    "saladas": [
+        {
+            "id": 1,
+            "imagem": "https://pandasnacozinha.com.br/wp-content/uploads/2020/04/saladas-elaboradas-3.jpg",
+            "nome": "Panzanella",
+            "descricao": "Salada à base de pão italiano amanhecido, anchovas e azeitonas.",
+            "valor": 18.72,
+            "tempoDePreparo": 20,
+            "categoria": "Massas"
+        },
+        {
+            "id": 2,
+            "imagem": "https://pandasnacozinha.com.br/wp-content/uploads/2020/04/saladas-elaboradas-2.jpg",
+            "nome": "Bacalhau",
+            "descricao": "Salada de bacalhau com alface americana e ovos.",
+            "valor": 33.45,
+            "tempoDePreparo": 22,
+            "categoria": "Massas"
+        },
+        {
+            "id": 3,
+            "imagem": "https://pandasnacozinha.com.br/wp-content/uploads/2020/04/saladas-elaboradas-1.jpg",
+            "nome": "Fusilli com camarão",
+            "descricao": "Salada especial com macarrão, camarão e legumes",
+            "valor": 28.10,
+            "tempoDePreparo": 20,
+            "categoria": "Massas"
+        },
+        {
+            "id": 4,
+            "imagem": "https://pandasnacozinha.com.br/wp-content/uploads/2020/04/saladas-elaboradas-4.jpg",
+            "nome": "Tropical",
+            "descricao": "Salada com folhas verdes, tomate e abacate",
+            "valor": 15.39,
+            "tempoDePreparo": 12,
+            "categoria": "Folhas"
+        },
+        {
+            "id": 5,
+            "imagem": "https://www.receiteria.com.br/wp-content/uploads/salada-fresh-com-manga-01-730x480.jpg",
+            "nome": "Salada de legumes crus",
+            "descricao": "Pepino é combinado com manga, abacate e tomates",
+            "valor": 19.00,
+            "tempoDePreparo": 15,
+            "categoria": "Frutas"
+        },
+        {
+            "id": 6,
+            "imagem": "https://thumbs.dreamstime.com/b/salada-com-p%C3%A3o-torrado-49856593.jpg",
+            "nome": "Salada crocante",
+            "descricao": "Salada com folhas e pão torrado com molho especial",
+            "valor": 15.25,
+            "tempoDePreparo": 10,
+            "categoria": "Folhas"
+        },
+        {
+            "id": 7,
+            "imagem": "https://www.receitasdecomida.com.br/wp-content/uploads/2015/06/salada-grega-de-frango-e-pao-8267.jpg",
+            "nome": "Salada grega",
+            "descricao": "Salada com folhas e pão torrado e pedaços de frango.",
+            "valor": 19.35,
+            "tempoDePreparo": 20,
+            "categoria": "Folhas"
+        },
+        {
+            "id": 8,
+            "imagem": "https://t2.rg.ltmcdn.com/pt/posts/1/6/9/salada_de_frutas_para_o_natal_8961_600.jpg",
+            "nome": "Salada tropical",
+            "descricao": "Salada com folhas e frutas variadas.",
+            "valor": 18.35,
+            "tempoDePreparo": 15,
+            "categoria": "Frutas"
+        },
+        {
+            "id": 9,
+            "imagem": "https://www.comidaereceitas.com.br/wp-content/uploads/2021/01/salada_verde_frutas.jpg",
+            "nome": "Salada cítrica",
+            "descricao": "Salada com folhas verdes e frutas cítricas.",
+            "valor": 21.28,
+            "tempoDePreparo": 15,
+            "categoria": "Frutas"
         }
     ],
 
     "pratosPrincipais": [
         {
             "id": 1,
-            "nome": "Prato 1",
-            "descricao": "Frango grelhado",
-            "subCategoria": "Carnes"
+            "imagem": "https://www.socialbauru.com.br/wp-content/uploads/2019/09/categoria-prato-principal-1.jpg",
+            "nome": "Paillard de filet",
+            "descricao": "Paillard de filet, recheado com queijo emmental, acompanha risoto de palmito com alho poró",
+            "valor": 39.45,
+            "tempoDePreparo": 35,
+            "categoria": "Risotos"
         },
         {
             "id": 2,
-            "nome": "Prato 2",
-            "descricao": "Filé com fritas",
-            "subCategoria": "Petiscos"
+            "imagem": "https://www.socialbauru.com.br/wp-content/uploads/2019/09/premioimpera2019-principal-fants-1024x683-1.jpg",
+            "nome": "Salmão defumado",
+            "descricao": "Salmão defumado com purê de funghi secchi e chutney de manga.",
+            "valor": 42.38,
+            "tempoDePreparo": 25,
+            "categoria": "Peixes e frutos do mar"
+        },
+        {
+            "id": 3,
+            "imagem": "https://www.socialbauru.com.br/wp-content/uploads/2019/09/premioimpera2019-principal-kameo-1024x683-1.jpg",
+            "nome": "Teppanyaki de anchova negra com camarões",
+            "descricao": "Anchova negra grelhada com camarões salteados na manteiga, acompanha vegetais e gohan.",
+            "valor": 42.56,
+            "tempoDePreparo": 23,
+            "categoria": "Peixes e frutos do mar"
+        },
+        {
+            "id": 4,
+            "imagem": "https://www.socialbauru.com.br/wp-content/uploads/2019/09/categoria-prato-principal-5.jpg",
+            "nome": "Risoto de cogumelos com ancho",
+            "descricao": "Risoto de shitake e funghi acompanhado de bife ancho angus grelhado na parrilla com manteiga e tomilho.",
+            "valor": 52.33,
+            "tempoDePreparo": 30,
+            "categoria": "Carnes vermelhas"
+        },
+        {
+            "id": 5,
+            "imagem": "https://www.socialbauru.com.br/wp-content/uploads/2019/09/premioimpera2019-principal-lokma-1024x683-1.jpg",
+            "nome": "Cordeiro marroquino",
+            "descricao": "Alcatra de carneiro com molho de romã e cebolas caramelizadas, acompanha cuscuz marroquino e frutas secas ao vinho tinto",
+            "valor": 42.38,
+            "tempoDePreparo": 25,
+            "categoria": "Carnes vermelhas"
+        },
+        {
+            "id": 6,
+            "imagem": "https://renata.com.br/images/receitas/182/renata-imagem-receitas-nhoque-de-batata-share.jpg",
+            "nome": "Nhoque de batata",
+            "descricao": "Massa preparada à base de Farinha Renata e batatas, com molho de tomates pelados e carne moída.",
+            "valor": 42.38,
+            "tempoDePreparo": 25,
+            "categoria": "Massas"
+        },
+        {
+            "id": 7,
+            "imagem": "https://img.itdg.com.br/tdg/images/recipes/000/000/876/324587/324587_original.jpg?mode=crop&width=710&height=400",
+            "nome": "Lasanha de carne",
+            "descricao": "Lasanha de carne com molho especial de tomate e especiarias.",
+            "valor": 42.38,
+            "tempoDePreparo": 25,
+            "categoria": "Massas"
+        },
+        {
+            "id": 8,
+            "imagem": "https://img.itdg.com.br/tdg/images/recipes/000/006/042/343126/343126_original.jpg?mode=crop&width=710&height=400",
+            "nome": "Codorna recheada",
+            "descricao": "Codorna recheada com castanhas e nozes.",
+            "valor": 42.38,
+            "tempoDePreparo": 25,
+            "categoria": "Aves"
+        },
+        {
+            "id": 9,
+            "imagem": "https://t1.rg.ltmcdn.com/pt/posts/9/5/5/escondidinho_de_frango_com_mandioca_e_requeijao_10559_300_square.webp",
+            "nome": "Escondidinho de frango",
+            "descricao": "Frango, mandioca e requeijão",
+            "valor": 32.12,
+            "tempoDePreparo": 25,
+            "categoria": "Aves"
+        },
+        {
+            "id": 10,
+            "imagem": "https://t2.rg.ltmcdn.com/pt/posts/3/2/5/frango_xadrez_fit_10523_300_square.webp",
+            "nome": "Frango xadrez",
+            "descricao": "Pedaços de frango, molho shoyu e amendoim.",
+            "valor": 35.72,
+            "tempoDePreparo": 22,
+            "categoria": "Aves"
+        },
+        {
+            "id": 11,
+            "imagem": "https://claudia.abril.com.br/wp-content/uploads/2020/01/nhoque-com-ragu-de-rabada.jpg?resize=630,441",
+            "nome": "Nhoque alla piemontese",
+            "descricao": "Nhoque de batatas com molho piemontese",
+            "valor": 28.92,
+            "tempoDePreparo": 25,
+            "categoria": "Massas"
+        },
+        {
+            "id": 12,
+            "imagem": "https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2019/07/03/carne-assada-recheada-farofa-ovo.jpg",
+            "nome": "Rocambole de carne",
+            "descricao": "Carne assada com farofa e ovos.",
+            "valor": 38.99,
+            "tempoDePreparo": 35,
+            "categoria": "Carnes vermelhas"
+        },
+        {
+            "id": 13,
+            "imagem": "https://t1.rg.ltmcdn.com/pt/posts/1/7/2/camarao_na_moranga_271_orig.jpg",
+            "nome": "Camarão na moranga",
+            "descricao": "Camarões servidos com creme de abóbora.",
+            "valor": 57.87,
+            "tempoDePreparo": 30,
+            "categoria": "Peixes e frutos do mar"
+        },
+        {
+            "id": 14,
+            "imagem": "https://www.unileverfoodsolutions.com.br/dam/global-ufs/mcos/SLA/calcmenu/recipes/BR-recipes/general/risoto-de-camar%C3%A3o/main-header.jpg",
+            "nome": "Risoto de camarão",
+            "descricao": "Risoto de camarão cremoso.",
+            "valor": 65.23,
+            "tempoDePreparo": 30,
+            "categoria": "Risotos"
+        },
+        {
+            "id": 15,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhYNdrWE5J6AByivNk-BY6Qqk6SB3BOM9QyQ&usqp=CAU",
+            "nome": "Risoto de rabada",
+            "descricao": "Risoto rabada bovina cremoso.",
+            "valor": 65.23,
+            "tempoDePreparo": 30,
+            "categoria": "Risotos"
+        }
+    ],
+
+    "sobremesas": [
+        {
+            "id": 1,
+            "imagem": "https://s3.amazonaws.com/institucional-statics-files/site/uploads/Banoffee.png",
+            "nome": "Choco Cinnamon Banoffee",
+            "descricao": "Base crocante de biscoito Thunder, doce de leite, brigadeiro com canela e finalizado com rodelas de banana, chantilly e canela.",
+            "valor": 27.03,
+            "tempoDePreparo": 20,
+            "categoria": "Biscoitos"
+        },
+        {
+            "id": 2,
+            "imagem": "https://s3.amazonaws.com/institucional-statics-files/site/uploads/Chocolate-Thunder-From-Down-Under_305x342-225x255.png",
+            "nome": "Chocolate Thunder From Down Under",
+            "descricao": "Nosso brownie exclusivo e quentinho com sorvete de baunilha e deliciosa calda de chocolate.",
+            "valor": 28.58,
+            "tempoDePreparo": 25,
+            "categoria": "Brownies"
+        },
+        {
+            "id": 3,
+            "imagem": "https://s3.amazonaws.com/institucional-statics-files/site/uploads/50_Cinnamon-Oblivion-225x255.jpg",
+            "nome": "Cinnamon Oblivion",
+            "descricao": "A sobremesa que nossos waiters adoram explicar. Contém nozes ou derivado de nozes.",
+            "valor": 25.10,
+            "tempoDePreparo": 23,
+            "categoria": "Sorvetes"
+        },
+        {
+            "id": 4,
+            "imagem": "https://s3.amazonaws.com/institucional-statics-files/site/uploads/Smores-1.png",
+            "nome": "S’mores",
+            "descricao": "Uma sobremesa quente, que combina cookies com gotas de chocolate, uma surpreendente pasta cremosa de Kit Kat, marshmallow gratinado, nossa calda de chocolate e pedaços de Kit Kat para finalizar.",
+            "valor": 23.28,
+            "tempoDePreparo": 9,
+            "categoria": "Quentes"
+        },
+        {
+            "id": 5,
+            "imagem": "https://s3.amazonaws.com/institucional-statics-files/site/uploads/havanna_thunder_sobremesa-225x255.jpg",
+            "nome": "Havanna Thunder",
+            "descricao": "O nosso brownie, com nozes pecans, agora em uma versão de doce de leite Havanna. Servido com sorvete de baunilha, chantilly, crumble de biscoito e finalizado com a deliciosa calda de doce de leite Havanna.",
+            "valor": 29.82,
+            "tempoDePreparo": 30,
+            "categoria": "Brownies"
+        },
+        {
+            "id": 6,
+            "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2020/05/canjica-leite-condensado-cozido.jpg",
+            "nome": "Canjica com leite condensado",
+            "descricao": "Canjica de milho com leite condensado e canela",
+            "valor": 17.38,
+            "tempoDePreparo": 20,
+            "categoria": "Quentes"
+        },
+        {
+            "id": 7,
+            "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2020/05/Crumble-de-banana.jpg",
+            "nome": "Crumble de banana",
+            "descricao": "Banana, cacau aveia e limão.",
+            "valor": 15.99,
+            "tempoDePreparo": 20,
+            "categoria": "Quentes"
+        },
+        {
+            "id": 8,
+            "imagem": "https://www.daninoce.com.br/wp-content/uploads/2017/12/10-sobremesas-com-sorvete-para-o-verao-dani-noce-1.jpg",
+            "nome": "Cheescake duplo",
+            "descricao": "Cheescake com uma camada extra de seu sorvete preferido.",
+            "valor": 17.92,
+            "tempoDePreparo": 10,
+            "categoria": "Sorvetes"
+        },
+        {
+            "id": 9,
+            "imagem": "https://www.daninoce.com.br/wp-content/uploads/2017/12/10-sobremesas-com-sorvete-para-o-verao-dani-noce-3.jpg",
+            "nome": "Torta de sorvete com bombom",
+            "descricao": "Sorvete de chocolate, baunilha, recheio de bombom e calda de chocolate.",
+            "valor": 21.42,
+            "tempoDePreparo": 10,
+            "categoria": "Sorvetes"
+        },
+        {
+            "id": 10,
+            "imagem": "https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2020/11/26/brownie-de-chocolate-com-castanha-do-para.jpg",
+            "nome": "Brownie crocante",
+            "descricao": "Brownie de chocolate com castanha do pará.",
+            "valor": 25.55,
+            "tempoDePreparo": 20,
+            "categoria": "Brownies"
+        },
+        {
+            "id": 11,
+            "imagem": "https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2021/08/08/90259823-pave-frutas-vermelhas-21154-683x1024-2.jpg",
+            "nome": "Pavê frutas vermelhas",
+            "descricao": "Frutas vermelhas, creme de morango e biscoitos.",
+            "valor": 23.55,
+            "tempoDePreparo": 20,
+            "categoria": "Biscoitos"
+        },
+        {
+            "id": 12,
+            "imagem": "https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2021/08/08/1481743631-pave-maracuja-biscoito-chocolate.jpg",
+            "nome": "Pavê maracujá",
+            "descricao": "Maracujá, leite condensado e biscoitos.",
+            "valor": 25.00,
+            "tempoDePreparo": 20,
+            "categoria": "Biscoitos"
+        }
+    ],
+
+    "bebidas": [
+        {
+            "id": 1,
+            "imagem": "https://www.dicasdemulher.com.br/wp-content/uploads/2016/01/1-cosmopolitan.jpg",
+            "nome": "Cosmopolitan",
+            "descricao": "O drink favorito de muitas celebridades leva vodka, Cointreau e Cherry Brandy.",
+            "valor": 18.44,
+            "tempoDePreparo": 5,
+            "categoria": "Drinks"
+        },
+        {
+            "id": 2,
+            "imagem": "https://www.dicasdemulher.com.br/wp-content/uploads/2016/01/4-mojito.jpg",
+            "nome": "Mojito",
+            "descricao": "Ideal para dias quentes, o mojito tem a refrescância do limão e da hortelã, somados à água tônica e o rum como protagonista. Uma delícia!",
+            "valor": 15.33,
+            "tempoDePreparo": 4,
+            "categoria": "Drinks"
+        },
+        {
+            "id": 3,
+            "imagem": "https://www.dicasdemulher.com.br/wp-content/uploads/2016/01/5-pina-colada.jpg",
+            "nome": "Piña Colada",
+            "descricao": "A pedida perfeita para os amantes do côco ou do abacaxi. Adoçada com leite condensado, a Piña Colada é docinha e leva como ingrediente alcoólico apenas o rum.",
+            "valor": 21.18,
+            "tempoDePreparo": 8,
+            "categoria": "Drinks"
+        },
+        {
+            "id": 4,
+            "imagem": "https://www.dicasdemulher.com.br/wp-content/uploads/2016/01/18-clericot.jpg",
+            "nome": "Clericot",
+            "descricao": "Um coquetel leve, semelhante a uma sangria com frutas variadas: kiwi, maçã, ameixa, abacaxi, uva e laranja.",
+            "valor": 23.28,
+            "tempoDePreparo": 9,
+            "categoria": "Sem álcool"
+        },
+        {
+            "id": 5,
+            "imagem": "https://www.dicasdemulher.com.br/wp-content/uploads/2016/01/8-tequila-sunrise.jpg",
+            "nome": "Tequila Sunrise",
+            "descricao": "Um coquetel à base de tequila, suco de laranja e groselha ou Grenadine.",
+            "valor": 21.18,
+            "tempoDePreparo": 10,
+            "categoria": "Drinks"
+        },
+        {
+            "id": 6,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH88ZZM_JSWfe-qDXnCIIYXSX5qDEnGkJHLQ&usqp=CAU",
+            "nome": "Heineken",
+            "descricao": "Cerveja puro malte.",
+            "valor": 21.18,
+            "tempoDePreparo": 0,
+            "categoria": "Cervejas"
+        },
+        {
+            "id": 7,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrlQXIWSL2vGnUN54-BVaOY2nI_3O3D3uZQg&usqp=CAU",
+            "nome": "Stella Artois",
+            "descricao": "Cerveja puro malte.",
+            "valor": 21.18,
+            "tempoDePreparo": 0,
+            "categoria": "Cervejas"
+        },
+        {
+            "id": 8,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr03Xn2nIj2AoQmYs4kTbZfD7eelhI3bjcHg&usqp=CAU",
+            "nome": "Corona Extra",
+            "descricao": "Cerveja puro malte.",
+            "valor": 21.18,
+            "tempoDePreparo": 0,
+            "categoria": "Cervejas"
+        },
+        {
+            "id": 9,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfx0Rbl1YZByPJwWCFdJmD2Nt3zFVRIbsFCA&usqp=CAU",
+            "nome": "Salton",
+            "descricao": "Vinho tinto suave.",
+            "valor": 111.47,
+            "tempoDePreparo": 0,
+            "categoria": "Vinhos"
+        },
+        {
+            "id": 10,
+            "imagem": "https://revistaadega.uol.com.br/media/porto_23042021.jpg",
+            "nome": "Taylors 20",
+            "descricao": "Vinho do porto.",
+            "valor": 215.18,
+            "tempoDePreparo": 0,
+            "categoria": "Vinhos"
+        },
+        {
+            "id": 11,
+            "imagem": "https://vinhos.vinicolagiaretta.com.br/imagens/vinho-tinto-seco-fino.jpg",
+            "nome": "Giaretta",
+            "descricao": "Vinho tinto seco.",
+            "valor": 198.18,
+            "tempoDePreparo": 0,
+            "categoria": "Vinhos"
+        },
+        {
+            "id": 12,
+            "imagem": "https://www.receiteria.com.br/wp-content/uploads/drink-sem-alcool-de-limao-01-730x480.jpg",
+            "nome": "Limão",
+            "descricao": "Drink de limão com agua perrier.",
+            "valor":33.28,
+            "tempoDePreparo": 9,
+            "categoria": "Sem álcool"
+        },
+        {
+            "id": 13,
+            "imagem": "https://www.receiteria.com.br/wp-content/uploads/drink-de-morango-com-manga-sem-alcool-730x480.jpg",
+            "nome": "Morango",
+            "descricao": "Um delicioso drink de morango refrescante.",
+            "valor": 18.28,
+            "tempoDePreparo": 10,
+            "categoria": "Sem álcool"
         }
     ]
 }

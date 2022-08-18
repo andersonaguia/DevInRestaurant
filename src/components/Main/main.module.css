@@ -1,0 +1,8 @@
+.main{
+    width: 100%;
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;      
+    background-color: #DAD7CD;
+    padding: 0 10%;
+}

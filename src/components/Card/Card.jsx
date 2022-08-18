@@ -1,22 +1,30 @@
-import './card.css'
+import styles from'./card.module.css'
 import PropTypes from 'prop-types'
 
-export const Card = ({ produto })=>{
+export const Card = ({ produto })=>{    
     return(
-        <div className='card'>
-            <p>{produto.nome}</p>
-            <p>{produto.descricao}</p>
-            <p>{produto.valor}</p>
-            <p>{produto.tempoPreparo}</p>            
-        </div>
+        produto.map((item) => 
+            <div key={item.id} className={styles.card}>
+                <img src={item.imagem} alt="imagem do produto" className={styles.img}/>
+                <div className={styles.dados}>
+                    <h4 className={styles.h4}>{item.nome}</h4>
+                    <p className={styles.descricao}>{item.descricao}</p>
+                    <div className={styles.rodape}>
+                        <p className={styles.preco}>R$ {item.valor.toFixed(2).replace('.', ',')}</p>
+                        <p className={styles.preparo}>{item.tempoDePreparo} min</p> 
+                    </div>                    
+                </div>                      
+            </div>        
+        )        
     )
 }
 
 Card.propTypes = {
-    protuto: PropTypes.shape({        
+    protuto: PropTypes.shape({  
+        imagem: PropTypes.string.isRequired,      
         nome: PropTypes.string.isRequired,
         descricao: PropTypes.string.isRequired,
         valor: PropTypes.number.isRequired,
-        tempoPreparo: PropTypes.string.isRequired
+        tempoPreparo: PropTypes.number.isRequired
     })
 }
