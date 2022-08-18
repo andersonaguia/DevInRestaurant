@@ -18,7 +18,7 @@
  
 </p>
 <h1 align="center">
-    <img alt="logo DevInRestaurant" title="#DevInRestaurant" src="./public/" />
+    <img alt="logo DevInRestaurant" title="#DevInRestaurant" src="./public/cutlery.png" />
 </h1>
 
 <h4 align="center"> 
@@ -88,21 +88,18 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
+$ git clone https://github.com/andersonaguia/DevInRestaurant.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd README-ecoleta
-
-# Vá para a pasta da aplicação Front End
-$ cd web
+$ cd semana7
 
 # Instale as dependências
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run start
+$ npm run dev
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# A aplicação será aberta na porta:5174 - acesse  http://127.0.0.1:5174/
 
 ```
 
