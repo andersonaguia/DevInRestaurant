@@ -18,7 +18,7 @@
  
 </p>
 <h1 align="center">
-    <img alt="logo DevInRestaurant" title="#DevInRestaurant" src="./public/cutlery.png" />
+    <img alt="logo DevInRestaurant" title="#DevInRestaurant" src="./public/cutlery.png" width="200px"/>
 </h1>
 
 <h4 align="center"> 
